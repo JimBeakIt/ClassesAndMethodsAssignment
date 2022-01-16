@@ -8,24 +8,24 @@ namespace ClassesAndMethodsAssignment
 {
     public class mathInt
     {
-        public int GetAdd(int data)
+        public int Mat(int plus)
         {
-            data = data + 4;
-            return data;
+            plus += 4;
+            return plus;
         }
 
-        public decimal GetSubtract(decimal data)
+        public decimal Mat(decimal subt)
         {
-            data = data - 3;
-            decimal Subt = Convert.ToInt32(data);           
-            return Subt;
+            subt -= 3;
+            int subtr = Convert.ToInt32(subt);
+            return subtr;
         }
 
-        public int GetMultiply(int data)
+        public int Mat(string mul)
         {
-            data = data * 4;
-            int Mult = Convert.ToInt32(data);
-            return Mult;
+            int times = Convert.ToInt32(mul);
+            times *= 2;
+            return times;
         }
     }
 }
